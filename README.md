@@ -28,7 +28,7 @@ El proyecto emplea un enfoque integral utilizando diversas herramientas y tecnol
 - **Modelado predictivo**:
   - **ARIMA**: Modelo clásico para capturar patrones lineales en series temporales.
   - **Prophet**: Modelo escalable y flexible para tendencias complejas.
-- **Visualización de resultados**: Matplotlib y Seaborn para gráficos detallados.
+- **Visualización de resultados**: Matplotlib para gráficos detallados.
 
 ## Metodología
 
