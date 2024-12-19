@@ -1,3 +1,18 @@
+
+## Autor
+
+**Alexandre Vidal De Palol**  
+Máster en Ciencia de Datos (UOC)
+[GitHub](https://github.com/alexvidi) | [LinkedIn](www.linkedin.com/in/àlex-vidal-de-palol-a18538155)  
+
+Este proyecto fue desarrollado como parte del Trabajo Final de Máster en Ciencia de Datos, abordando los desafíos de predicción en el mercado de criptomonedas mediante Big Data Streaming y Machine Learning.
+
+## Tutor
+
+**Rafael Luque Ocaña**  
+Profesor e investigador especializado en Ciencia de Datos.  
+
+
 # Desafíos en la Predicción de Precios de Criptomonedas: Implementación de un Sistema con Big Data Streaming y Machine Learning
 
 Este repositorio contiene el código, datos y documentación del Trabajo Final de Máster titulado: **"Desafíos en la Predicción de Precios de Criptomonedas: Implementación de un Sistema con Big Data Streaming y Machine Learning"**. Este proyecto tiene como objetivo principal diseñar un sistema predictivo para analizar el comportamiento del mercado de criptomonedas, integrando tecnologías avanzadas de procesamiento de datos en tiempo real y algoritmos de aprendizaje automático.
