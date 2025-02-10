@@ -1,63 +1,63 @@
-
-## Autor
+## Author
 
 **Alexandre Vidal De Palol**  
-Máster en Ciencia de Datos (UOC)
+Master in Data Science (UOC)  
 [GitHub](https://github.com/alexvidi) | [LinkedIn](www.linkedin.com/in/àlex-vidal-de-palol-a18538155)  
 
-Este proyecto fue desarrollado como parte del Trabajo Final de Máster en Ciencia de Datos, abordando los desafíos de predicción en el mercado de criptomonedas mediante Big Data Streaming y Machine Learning.
+This project was developed as part of the Master's Final Project in Data Science, addressing the challenges of prediction in the cryptocurrency market through Big Data Streaming and Machine Learning.
 
-## Tutor
+## Advisor
 
 **Rafael Luque Ocaña**  
-Profesor e investigador especializado en Ciencia de Datos.  
+Professor and researcher specialized in Data Science.  
 
+# Challenges in Cryptocurrency Price Prediction: Implementation of a System with Big Data Streaming and Machine Learning
 
-# Desafíos en la Predicción de Precios de Criptomonedas: Implementación de un Sistema con Big Data Streaming y Machine Learning
+This repository contains the code, data, and documentation of the Master's Final Project titled: **"Challenges in Cryptocurrency Price Prediction: Implementation of a System with Big Data Streaming and Machine Learning"**. This project aims to design a predictive system to analyze the behavior of the cryptocurrency market, integrating advanced real-time data processing technologies and machine learning algorithms.
 
-Este repositorio contiene el código, datos y documentación del Trabajo Final de Máster titulado: **"Desafíos en la Predicción de Precios de Criptomonedas: Implementación de un Sistema con Big Data Streaming y Machine Learning"**. Este proyecto tiene como objetivo principal diseñar un sistema predictivo para analizar el comportamiento del mercado de criptomonedas, integrando tecnologías avanzadas de procesamiento de datos en tiempo real y algoritmos de aprendizaje automático.
+## Project Structure
 
-## Estructura del proyecto
+The repository is organized into the following folders:
 
-El repositorio está organizado en las siguientes carpetas:
+- **`notebooks/`**: Contains the Jupyter notebooks organized by model and cryptocurrency.
+  - `ARIMA_BNB_CODE.ipynb`: Predictive analysis of Binance Coin using ARIMA.
+  - `ARIMA_BTC_CODE.ipynb`: Predictive analysis of Bitcoin using ARIMA.
+  - `ARIMA_ETH_CODE.ipynb`: Predictive analysis of Ethereum using ARIMA.
+  - `PROPHET_CODE.ipynb`: General predictive analysis using Prophet.
+  - `TFM_CODE_PIPELINE.ipynb`: Complete implementation of the data pipeline.
+- **`data/`**: Contains the data files used in the project.
+  - `crypto_db.crypto_data2.json`: Historical data collected from the CoinGecko API.
+- **`LICENSE`**: Project license.
+- **`requirements.txt`**: List of dependencies required to run the project.
 
-- **`notebooks/`**: Contiene los notebooks Jupyter organizados por modelo y criptomoneda.
-  - `ARIMA_BNB_CODE.ipynb`: Análisis predictivo de Binance Coin con ARIMA.
-  - `ARIMA_BTC_CODE.ipynb`: Análisis predictivo de Bitcoin con ARIMA.
-  - `ARIMA_ETH_CODE.ipynb`: Análisis predictivo de Ethereum con ARIMA.
-  - `PROPHET_CODE.ipynb`: Análisis predictivo general utilizando Prophet.
-  - `TFM_CODE_PIPELINE.ipynb`: Implementación completa del pipeline de datos.
-- **`data/`**: Contiene los archivos de datos utilizados en el proyecto.
-  - `crypto_db.crypto_data2.json`: Datos históricos recolectados de la API de CoinGecko.
-- **`LICENSE`**: Licencia del proyecto.
-- **`requirements.txt`**: Lista de dependencias necesarias para ejecutar el proyecto.
+## Technologies and Tools Used
 
-## Tecnologías y herramientas utilizadas
+The project employs a comprehensive approach using several key tools and technologies:
+- **Data Acquisition**: CoinGecko API for real-time market data.
+- **Real-time Processing**:
+  - Apache Kafka for data streaming.
+  - Apache Spark Streaming for distributed processing.
+- **Storage**: MongoDB for storing historical data.
+- **Predictive Modeling**:
+  - **ARIMA**: A classical model for capturing linear patterns in time series.
+  - **Prophet**: A scalable and flexible model for complex trends.
+- **Results Visualization**: Matplotlib for detailed charts.
 
-El proyecto emplea un enfoque integral utilizando diversas herramientas y tecnologías clave:
-- **Obtención de datos**: API de CoinGecko para datos de mercado en tiempo real.
-- **Procesamiento en tiempo real**:
-  - Apache Kafka para la transmisión de datos.
-  - Apache Spark Streaming para el procesamiento distribuido.
-- **Almacenamiento**: MongoDB para almacenar datos históricos.
-- **Modelado predictivo**:
-  - **ARIMA**: Modelo clásico para capturar patrones lineales en series temporales.
-  - **Prophet**: Modelo escalable y flexible para tendencias complejas.
-- **Visualización de resultados**: Matplotlib para gráficos detallados.
+## Methodology
 
-## Metodología
+The CRISP-DM (Cross Industry Standard Process for Data Mining) methodology was used to organize the project's phases:
+1. **Data Acquisition**: Automated collection from the CoinGecko API.
+2. **Data Preprocessing**: Transformation and cleaning using Pandas and Apache Spark.
+3. **Exploratory Analysis**: Identification of initial patterns and trends.
+4. **Predictive Modeling**: Implementation and comparison of the ARIMA and Prophet models.
+5. **Visualization and Evaluation**: Analysis of results and performance metrics (MAE, RMSE, MAPE).
 
-Se empleó la metodología CRISP-DM (Cross Industry Standard Process for Data Mining) para organizar las fases del proyecto:
-1. **Obtención de datos**: Recolección automatizada desde la API de CoinGecko.
-2. **Preprocesamiento de datos**: Transformación y limpieza con Pandas y Apache Spark.
-3. **Análisis exploratorio**: Identificación de patrones y tendencias iniciales.
-4. **Modelado predictivo**: Implementación y comparación de los modelos ARIMA y Prophet.
-5. **Visualización y evaluación**: Análisis de resultados y métricas de desempeño (MAE, RMSE, MAPE).
+## Installation and Usage
 
-## Instalación y uso
-
-1. Clonar este repositorio:
+1. Clone this repository:
    ```bash
    git clone https://github.com/alexvidi/TFM_Crypto_Prediction.git
    cd TFM_Crypto_Prediction
+
+
 
